@@ -150,7 +150,9 @@ https://filezilla-project.org/
 ```
 Nos descargaremos el archivo cliente y nos descargamos la version gratuita
 
-
+![imagen](./img/a.png)
+![imagen](./img/a2.png)
+![imagen](./img/a3.png)
 
 En el caso de linux tendreis que extraer el archivo zip y encontrar el archivo bin y ejecutarlo, en windows es tan simple como hacer doble click
 
