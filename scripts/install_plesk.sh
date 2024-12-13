@@ -1,0 +1,14 @@
+#!/bin/bash
+set -x
+apt update
+apt upgrade -y
+
+rm -rf /tmp/plesk-installer
+wget https://autoinstall.plesk.com/plesk-installer -P /tmp
+chmod +x /tmp/plesk-installer 
+#ejecuta
+/tmp/plesk-installer install plesk
+#ejecutamos
+#imthefuckingad
+#httpdocs
+#ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC+kbXGNemKQY39EhoK/vQyG3vYV3PwXPvONmXW9gQ564F2tJlLCi5nc6kxzqxsmrrfS9qBJAgCde9dDlzpvbRynEn3+W0ggAN47x3a8BD4tGCjk5SgWcEvwFz2HA4X5Kn8ET5aEYV36XHH8cqLLycMYATsfVnNNfr3PCNS0iFJgmVjd+zyf9z87SIMDKE54jozPiRtGu0qM/kf6IB1ALqvyKtHklmVHDe8D3/QP5jxWcDMtbaam+BYbn1UXMhAYbNQiKHnPK7QUAkLovyCuMB2NyJW4yM0BksgK43y2KfAd4Vs0BzBMRNRj5TEm6DyBq+x1+LsA/o+dJmRaK4yiA48M1941bGywWAgyKWb/JdqArGEC8WxIC6edyX1SGIkp9acetFwKrwQVr2UkZxyf3n3da5mpkUPDKE8nrl+DUQy+aUnOux7xkDf7qfWhD8/nKMRD4s6cwjwuNiP9gVw1k0WgYjYesXpTfhTtP6gaQaCnYQ61DSp19nPTsk2naRt//P/KkXCv/PKtOdIXbtcscOrvEk9FwUGPpf0qApD05sr/xW0qESyHLYrwloLCPdRhgosYVCntOAobl1WiZMhlK7QpOVxl+bVW/BFVIWgrYBKI9tge0RTGKglVlE379Ywb5uyX+vQblM+hU/t4PKI29bkviFHL4HCC4QMu9e/lL2RzQ==
